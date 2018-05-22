@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/shape_explorer_edit_bg">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:paddingRight="5dp"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/ic_arrow_down"
+        android:textColor="@color/c_333333"
+        android:text="BTC"/>
+
+
+    <EditText
+        android:id="@+id/et_hash"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:hint="请输入交易地址"
+        android:lines="1"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/c_333333"
+        android:textColorHint="@color/c_999999"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="26dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/ic_arrow_right"/>
+</LinearLayout>

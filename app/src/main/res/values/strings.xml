@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BlockExplorer</string>
+
+    <string name="loading">数据查询中,请稍后…</string>
+</resources>

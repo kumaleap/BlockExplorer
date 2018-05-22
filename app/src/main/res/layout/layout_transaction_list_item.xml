@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_list_item_bg">
+
+    <TextView
+        android:id="@+id/tv_hash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/c_159ee2"
+        android:textSize="12sp"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/c_999999"
+            android:textSize="12sp"
+            android:text="高度"/>
+
+        <TextView
+            android:id="@+id/tv_height"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/white_color"
+            android:textSize="12sp"
+            android:text=""/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/c_999999"
+            android:textSize="12sp"
+            android:text="矿工费"/>
+
+        <TextView
+            android:id="@+id/tv_fee"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/white_color"
+            android:textSize="12sp"
+            android:text=""/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/c_999999"
+            android:textSize="12sp"
+            android:text="时间"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/white_color"
+            android:textSize="12sp"
+            android:text=""/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/c_ff666a"
+        android:textSize="12sp"
+        android:text=""/>
+
+</LinearLayout>
