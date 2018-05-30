@@ -5,6 +5,9 @@ A BlockChain Explorer（一款区块链简易浏览器-已经实现了ETH，BTC�
 
 ![](https://github.com/wulijie/BlockExplorer/blob/master/images/blockexplorer.gif)
 
+**[Demo下载地址](https://github.com/wulijie/BlockExplorer/blob/master/images/app-debug.apk)**
+![](https://ws4.sinaimg.cn/large/006tKfTcly1frtfdexgyhj307o07rwed.jpg)
+
 **相关技术参考**
 
 - [Android使用Infura、web3j接入以太坊区块链](https://github.com/wulijie/AndroidNotes/blob/master/BlockChain/%E4%BD%BF%E7%94%A8Infura%E3%80%81Web3j%E6%8E%A5%E5%85%A5%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%8C%BA%E5%9D%97%E9%93%BE.md)
